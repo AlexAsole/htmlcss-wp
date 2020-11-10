@@ -48,9 +48,9 @@ header{
 }
 /* primo box */
 .box1{
-  width: calc(20% - 20px);
+  width: calc(20% - 50px);
   background-color: #fff;
-  margin-right: 10px;
+  margin-right: 40px;
   padding: 5px;
 }
 /* allinea immagini */
@@ -63,11 +63,13 @@ header{
   padding-left: 10px;
 
 }
+/* contenuto box centrale */
 .content{
   padding-top: 15px;
   padding-left: 5px;
   color: #f00;
 }
+/* editing elementi lista */
 .box1 > .content > ul{
   list-style: none;
 }
@@ -76,25 +78,41 @@ header{
 }
 /* secondo box */
 .box2{
-  width: 60%;
+  width: calc(60% - 80px);
   background-color: #fff;
   padding: 10px 15px;
+  margin: 0 40px;
 }
 
 /* terzo box contente due in-box */
 .box3{
-  width: 20%;
-  margin-left: 10px;
+  width: calc(20% - 50px);
+  margin-left: 40px;
 }
 /* in-box */
 .in-box{
   background-color: #fff;
-  margin-bottom: 5px;
+  margin-bottom: 50px;
   padding: 10px 15px;
 }
 
 /* footer pagina */
 footer{
-height: 40px;
-background-color: #f00;
+background-color: #fff;
+text-align: center;
+}
+/* titolo footer */
+footer > h3{
+  opacity: 0.2;
+  padding-bottom: 5px;
+  border-bottom: 2px #000 solid;
+}
+/* contenitore immagini footer */
+.img-container{
+  padding: 55px 15px;
+  opacity: 0.2;
+}
+/* padding delle immagini */
+.img-container > img{
+  padding: 20px 100px;
 }
