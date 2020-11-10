@@ -22,6 +22,7 @@ header{
 /* barra header */
 .bar{
   background-color: #6d3a3d;
+  padding: 15px;
 }
 /* contenuti barra header */
 .content-bar{
@@ -76,27 +77,22 @@ header{
 /* secondo box */
 .box2{
   width: 60%;
-  height: 400px;
   background-color: #fff;
+  padding: 10px 15px;
 }
+
 /* terzo box contente due in-box */
 .box3{
   width: 20%;
-  height: 400px;
   margin-left: 10px;
 }
 /* in-box */
 .in-box{
-  height: calc(200px - 5px) ;
   background-color: #fff;
   margin-bottom: 5px;
+  padding: 10px 15px;
 }
-/* in-box 2  */
-.in-box2{
-  height: calc(200px - 5px);
-  background-color: #fff;
-  margin-bottom: 5px;
-}
+
 /* footer pagina */
 footer{
 height: 40px;
