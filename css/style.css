@@ -19,9 +19,11 @@ header{
   background-image: url(../img/foresta.png);
   text-align: center;
 }
+/* barra header */
 .bar{
   background-color: #6d3a3d;
 }
+/* contenuti barra header */
 .content-bar{
   font-size: 20px;
   color: #fff;
@@ -46,15 +48,36 @@ header{
 /* primo box */
 .box1{
   width: calc(20% - 20px);
-  height: 250px;
-  background-color: #0ff;
+  background-color: #fff;
   margin-right: 10px;
+  padding: 5px;
+}
+/* allinea immagini */
+.align{
+  vertical-align: bottom;
+}
+/* titolo primo box */
+.box1 > span{
+  font-size: 25px;
+  padding-left: 10px;
+
+}
+.content{
+  padding-top: 15px;
+  padding-left: 5px;
+  color: #f00;
+}
+.box1 > .content > ul{
+  list-style: none;
+}
+.box1 > .content > ul > li{
+  padding: 10px;
 }
 /* secondo box */
 .box2{
   width: 60%;
   height: 400px;
-  background-color: #f0f;
+  background-color: #fff;
 }
 /* terzo box contente due in-box */
 .box3{
@@ -65,13 +88,13 @@ header{
 /* in-box */
 .in-box{
   height: calc(200px - 5px) ;
-  background-color: #baf;
+  background-color: #fff;
   margin-bottom: 5px;
 }
 /* in-box 2  */
 .in-box2{
   height: calc(200px - 5px);
-  background-color: #be5710;
+  background-color: #fff;
   margin-bottom: 5px;
 }
 /* footer pagina */
