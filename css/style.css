@@ -1,0 +1,66 @@
+/* Reset */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Contenitore pagina */
+.container{
+  margin: 0 auto;
+  width: 1200px;
+}
+/* header pagina */
+header{
+  height: 40px;
+  background-color: #ff0;
+}
+/* contenitore box */
+.folder{
+  margin:  10px 0  ;
+}
+/* Clearfix */
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Float sinistra */
+.float{
+  float: left;
+}
+/* primo box */
+.box1{
+  width: calc(20% - 20px);
+  height: 250px;
+  background-color: #0ff;
+  margin-right: 10px;
+}
+/* secondo box */
+.box2{
+  width: 60%;
+  height: 400px;
+  background-color: #f0f;
+}
+/* terzo box contente due in-box */
+.box3{
+  width: 20%;
+  height: 400px;
+  margin-left: 10px;
+}
+/* in-box */
+.in-box{
+  height: calc(200px - 5px) ;
+  background-color: #baf;
+  margin-bottom: 5px;
+}
+/* in-box 2  */
+.in-box2{
+  height: calc(200px - 5px);
+  background-color: #be5710;
+  margin-bottom: 5px;
+}
+/* footer pagina */
+footer{
+height: 40px;
+background-color: #f00;
+}
