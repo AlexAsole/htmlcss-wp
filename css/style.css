@@ -4,6 +4,10 @@
   margin: 0;
   padding: 0;
 }
+/* sfondo */
+body{
+  background-image: url(../img/legno.png);
+}
 /* Contenitore pagina */
 .container{
   margin: 0 auto;
@@ -11,9 +15,20 @@
 }
 /* header pagina */
 header{
-  height: 40px;
   background-color: #ff0;
+  background-image: url(../img/foresta.png);
+  text-align: center;
 }
+.bar{
+  background-color: #6d3a3d;
+}
+.content-bar{
+  font-size: 20px;
+  color: #fff;
+  padding: 10px;
+
+}
+
 /* contenitore box */
 .folder{
   margin:  10px 0  ;
