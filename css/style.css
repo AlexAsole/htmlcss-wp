@@ -13,12 +13,23 @@ body{
   margin: 0 auto;
   width: 1200px;
 }
+.rb{
+font-family: 'Roboto', sans-serif;
+}
 /* header pagina */
 header{
   background-color: #ff0;
   background-image: url(../img/foresta.png);
   text-align: center;
   margin-top: 15px;
+  color: #fff;
+}
+/* bordo header */
+.border{
+  border: 15px #fff solid;
+}
+h1{
+  margin-bottom: 60px;
 }
 /* barra header */
 .bar{
@@ -28,7 +39,6 @@ header{
 /* contenuti barra header */
 .content-bar{
   font-size: 20px;
-  color: #fff;
   padding: 10px;
 
 }
@@ -57,12 +67,12 @@ header{
 }
 /* allinea immagini */
 .align{
-  vertical-align: bottom;
+  vertical-align: middle;
 }
-/* titolo primo box */
-.box1 > h2{
-  display: inline;
+.box1 > h3{
+  display:inline;
 }
+
 /* contenuto box centrale */
 .content{
   padding-top: 15px;
@@ -102,9 +112,12 @@ header{
 footer{
 background-color: #fff;
 text-align: center;
+font-style: italic;
+border-radius: 10px;
+margin-bottom: 15px;
 }
 /* titolo footer */
-footer > h3{
+footer > h4{
   opacity: 0.2;
   padding: 5px 0;
   border-bottom: 2px #000 solid;
@@ -112,9 +125,12 @@ footer > h3{
 /* contenitore immagini footer */
 .img-container{
   padding: 55px 15px;
-  opacity: 0.2;
 }
 /* padding delle immagini */
 .img-container > img{
   padding: 20px 100px;
+  opacity: 0.2;
+}
+.img-container > img:hover{
+  opacity: 1;
 }
